@@ -1,0 +1,39 @@
+ELECTION RESULTS:
+-----------------------------------
+The algorithms used for calculating the reports of this election are
+described in: https://en.wikipedia.org/wiki/Schulze_method
+
+Number of vacancies to be filled: 2
+
+Winners in order of preference:
+1. Alice
+2. Eve
+
+Total order of preference:
+1. Alice
+2. Eve
+3. Bob
+4. Vacant
+
+No ties were found 
+
+-----------------------------------
+Below are in depth reports:
+
+Indexing used for pairwise and strength matrices:
+0 - Alice
+1 - Bob
+2 - Eve
+3 - Vacant
+
+Pairwise matrix:
+array([[0., 8., 6., 9.],
+       [2., 0., 2., 6.],
+       [3., 5., 0., 8.],
+       [3., 3., 3., 0.]])
+
+Strength matrix:
+array([[0., 8., 6., 9.],
+       [0., 0., 0., 6.],
+       [0., 5., 0., 8.],
+       [0., 0., 0., 0.]])

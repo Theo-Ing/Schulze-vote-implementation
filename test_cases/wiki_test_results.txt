@@ -1,0 +1,44 @@
+ELECTION RESULTS:
+-----------------------------------
+The algorithms used for calculating the reports of this election are
+described in: https://en.wikipedia.org/wiki/Schulze_method
+
+Number of vacancies to be filled: 3
+
+Winners in order of preference:
+1. Esmeralda
+2. Antonio
+3. Cynthia
+
+Total order of preference:
+1. Esmeralda
+2. Antonio
+3. Cynthia
+4. Bertrand
+5. Delilah
+
+No ties were found 
+
+-----------------------------------
+Below are in depth reports:
+
+Indexing used for pairwise and strength matrices:
+0 - Antonio
+1 - Bertrand
+2 - Cynthia
+3 - Delilah
+4 - Esmeralda
+
+Pairwise matrix:
+array([[ 0., 20., 26., 30., 22.],
+       [25.,  0., 16., 33., 18.],
+       [19., 29.,  0., 17., 24.],
+       [15., 12., 28.,  0., 14.],
+       [23., 27., 21., 31.,  0.]])
+
+Strength matrix:
+array([[ 0., 28., 28., 30., 24.],
+       [25.,  0., 28., 33., 24.],
+       [25., 29.,  0., 29., 24.],
+       [25., 28., 28.,  0., 24.],
+       [25., 28., 28., 31.,  0.]])

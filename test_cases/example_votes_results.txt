@@ -1,0 +1,35 @@
+ELECTION RESULTS:
+-----------------------------------
+The algorithms used for calculating the reports of this election are
+described in: https://en.wikipedia.org/wiki/Schulze_method
+
+Number of vacancies to be filled: 2
+
+Winners in order of preference:
+1. alpha
+2. bravo
+
+Total order of preference:
+1. alpha
+2. bravo
+3. charlie
+
+No ties were found 
+
+-----------------------------------
+Below are in depth reports:
+
+Indexing used for pairwise and strength matrices:
+0 - alpha
+1 - bravo
+2 - charlie
+
+Pairwise matrix:
+array([[0., 2., 3.],
+       [1., 0., 3.],
+       [1., 1., 0.]])
+
+Strength matrix:
+array([[0., 2., 3.],
+       [0., 0., 3.],
+       [0., 0., 0.]])
